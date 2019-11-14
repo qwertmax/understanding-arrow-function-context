@@ -1,7 +1,3 @@
-# understanding-arrow-function-context
-
-
-```js
 let Obj = {
 	method: function() {
 		let max = {
@@ -32,4 +28,3 @@ let Obj = {
 
 Obj.method();
 Obj.method2();
-````

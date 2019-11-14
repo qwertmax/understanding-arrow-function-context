@@ -1,4 +1,4 @@
-# understanding-arrow-function-context
+# understanding arrow function context
 
 ```javascript
 let Obj = {

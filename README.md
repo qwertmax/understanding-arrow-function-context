@@ -85,3 +85,5 @@ here 2 methods: `m2` and `n2`.
 
 -   Method `m2` is arrow function from `method2` (whitch is arrow function too!). This means that `m2` inherit context from parent object, but parent object is arrow function as well (be careful) this mean that `this` = `undefined`. Why? Because `Obj -> method2 -> m2`. We forward context up to `Obj`.
 -   Method `n2` is standard function from `method2` (whitch is arrow function). This means that inside `n2` we will have `this` = `{m2: ƒ, n2: ƒ}`.
+
+[here](https://jsitor.com/UpbmGL0Gp) you can see live example of this.

@@ -1,5 +1,5 @@
 let Obj = {
-	method: function() {
+	method1: function() {
 		let max = {
 			m: () => {
 				console.log("func -> arrow f:", this);
@@ -26,5 +26,5 @@ let Obj = {
 	}
 };
 
-Obj.method();
+Obj.method1();
 Obj.method2();
